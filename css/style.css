@@ -21,11 +21,11 @@ body {
 }
 
 .header_logo {
-    margin: 17px 0 17px 61px;
+   padding: 17px 0 17px 61px;
 }
 
 .header_menu-button {
-    margin: 30px 150px 30px 0;
+    padding: 30px 150px 30px 0;
 }
 
 /*Intro section*/
@@ -118,7 +118,6 @@ body {
     height: 140px;
     top: 264px;
     right: 0;
-
 }
 
 .intro_arrow_back {
@@ -135,7 +134,7 @@ body {
 
 .intro_back, .intro_forward {
     color: #DADADA;
-    margin: 22px 19px 22px 26px;
+   margin: 22px 19px 22px 26px;
 }
 
 .intro_arrow_back:hover {

@@ -7,7 +7,11 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1kpG6gzUFHXh05C5KpTdiFCs6wS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -29,6 +33,9 @@
       <workItem from="1606389946421" duration="21247000" />
       <workItem from="1606411523210" duration="3618000" />
       <workItem from="1606415147824" duration="6000" />
+      <workItem from="1606416613123" duration="9000" />
+      <workItem from="1606416622815" duration="718000" />
+      <workItem from="1606417605960" duration="531000" />
     </task>
     <servers />
   </component>
@@ -36,10 +43,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="818" y="267" key="FileChooserDialogImpl" timestamp="1606415145351">
+    <state x="818" y="267" key="FileChooserDialogImpl" timestamp="1606416619959">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="818" y="267" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1606415145351" />
+    <state x="818" y="267" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1606416619959" />
     <state x="506" y="160" width="1305" height="673" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1606405577138">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
