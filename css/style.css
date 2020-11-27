@@ -4,13 +4,16 @@
 }
 
 body {
-    width: 1440px;
+    width: 100%;
+}
+
+.wrapper {
+    max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .header {
-    width: 1440px;
     height: 100px;
     background-color: #2B4074;
 }
@@ -21,13 +24,17 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+
 /*Intro section*/
 .intro {
-    width: 1440px;
+    width: 100%;
     height: 668px;
     background-image: url('../images/bg-img.jpg');
-    opacity: 0.9;
+    opacity: 0.95;
     position: relative;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .intro_wrapper {
@@ -127,7 +134,7 @@ body {
 
 .intro_back, .intro_forward {
     color: #DADADA;
-   margin: 22px 19px 22px 26px;
+    margin: 22px 19px 22px 26px;
 }
 
 .intro_arrow_back:hover {

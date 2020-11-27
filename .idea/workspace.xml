@@ -19,7 +19,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$APPLICATION_HOME_DIR$/Exemples" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -36,7 +36,8 @@
       <workItem from="1606416613123" duration="9000" />
       <workItem from="1606416622815" duration="718000" />
       <workItem from="1606417605960" duration="632000" />
-      <workItem from="1606420924461" duration="2269000" />
+      <workItem from="1606420924461" duration="3916000" />
+      <workItem from="1606456323857" duration="2933000" />
     </task>
     <servers />
   </component>
@@ -44,10 +45,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="818" y="267" key="FileChooserDialogImpl" timestamp="1606416619959">
+    <state x="818" y="267" key="FileChooserDialogImpl" timestamp="1606458002634">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="818" y="267" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1606416619959" />
+    <state x="818" y="267" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1606458002634" />
     <state x="506" y="160" width="1305" height="673" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1606405577138">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
