@@ -4,15 +4,19 @@
 }
 
 body {
-    width: 100%;
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+/*
 
 .wrapper {
     max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
 }
-
+*/
 .header {
     height: 100px;
     background-color: #2B4074;
@@ -43,14 +47,16 @@ body {
     align-items: center;
     color: #FFFFFF;
 }
-h1,p{
+
+h1, h2, p {
     margin-top: 0;
     margin-bottom: 0;
 }
+
 .into_title {
     width: 513px;
     height: 192px;
-   margin-top: 107px;
+    margin-top: 107px;
 }
 
 .title_text {
@@ -68,7 +74,7 @@ h1,p{
     padding-top: 8px;
     width: 886px;
     height: 60px;
-    margin-top: 18px;
+    margin-top: 20px;
 }
 
 .intro-text {
@@ -95,19 +101,18 @@ h1,p{
 }
 
 .read-more {
-    display : flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     width: 200px;
     height: 50px;
-    font-family: Roboto, sans-serif;
-    font-size: 18px;
-    line-height: 18px;
-    color: #F9F6E5;
     text-decoration: none;
 }
 
-.read-more a {
+.intro_read-more a {
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    line-height: 18px;
     color: #F9F6E5;
 }
 
@@ -116,6 +121,10 @@ h1,p{
     height: 12px;
     margin-top: 123px;
     align-items: center;
+}
+
+.intro_pagination .oval2 {
+    margin: 0 5px 0 5px;
 }
 
 .intro_arrow {
@@ -142,8 +151,9 @@ h1,p{
     color: #DADADA;
     margin: 22px 19px 22px 26px;
 }
-.intro_arrow_forward_link,.intro_arrow_back_link {
-    display : block;
+
+.intro_arrow_forward_link, .intro_arrow_back_link {
+    display: block;
     width: 70px;
     height: 70px;
 }
@@ -154,4 +164,69 @@ h1,p{
 
 .intro_arrow_forward:hover {
     opacity: 0.7;
+}
+
+/*Promo section*/
+.promo {
+    background: #2B4074;
+}
+
+.promo_wrapper {
+    height: 192px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 57px 150px 57px 150px;
+
+}
+
+.promo_text {
+    color: #FFFFFF;
+}
+
+.promo_text h2 {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.promo_text p {
+    width: 500px;
+    height: 42px;
+    margin-top: 4px;
+    font-family: 'Dosis', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.call-me {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    color: #2B4074;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    text-decoration: none;
+}
+
+.promo_call-me {
+    background: #F9F6E5;
+    border-radius: 3px;
+}
+/*Services*/
+
+.services_wrapper {
+    height: 547px;
+    display: flex;
+    padding: 90px 0 135px 62px;
+    background: #FFFFFF;
 }
