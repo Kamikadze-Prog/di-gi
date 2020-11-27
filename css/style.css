@@ -95,11 +95,14 @@ h1,p{
 }
 
 .read-more {
-    position: absolute;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
     font-family: Roboto, sans-serif;
     font-size: 18px;
     line-height: 18px;
-    margin: 18px 47px 14px 46px;
     color: #F9F6E5;
     text-decoration: none;
 }
@@ -138,6 +141,11 @@ h1,p{
 .intro_back, .intro_forward {
     color: #DADADA;
     margin: 22px 19px 22px 26px;
+}
+.intro_arrow_forward_link,.intro_arrow_back_link {
+    display : block;
+    width: 70px;
+    height: 70px;
 }
 
 .intro_arrow_back:hover {
