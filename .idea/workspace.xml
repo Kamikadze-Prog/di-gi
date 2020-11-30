@@ -46,7 +46,9 @@
       <workItem from="1606576539643" duration="16923000" />
       <workItem from="1606642349173" duration="1473000" />
       <workItem from="1606653437995" duration="4939000" />
-      <workItem from="1606659524749" duration="2510000" />
+      <workItem from="1606659524749" duration="3869000" />
+      <workItem from="1606665490319" duration="33488000" />
+      <workItem from="1606721820503" duration="5062000" />
     </task>
     <servers />
   </component>
@@ -54,17 +56,21 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="818" y="267" key="FileChooserDialogImpl" timestamp="1606656492023">
+    <state x="716" y="221" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606722169325">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="818" y="267" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1606656492023" />
-    <state x="506" y="160" width="1305" height="673" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1606405577138">
+    <state x="716" y="221" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606722169325" />
+    <state x="818" y="267" key="FileChooserDialogImpl" timestamp="1606697720196">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="506" y="160" width="1305" height="673" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606405577138" />
-    <state x="878" y="249" key="run.anything.popup" timestamp="1606643248882">
+    <state x="818" y="267" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1606697720196" />
+    <state x="506" y="160" width="1305" height="673" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1606676781380">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="878" y="249" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606643248882" />
+    <state x="506" y="160" width="1305" height="673" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606676781380" />
+    <state x="878" y="249" key="run.anything.popup" timestamp="1606723821139">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="878" y="249" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606723821139" />
   </component>
 </project>
