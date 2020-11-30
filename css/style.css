@@ -468,15 +468,18 @@ h1, h2, p {
 }
 
 .video-block_title hr {
-    margin: 30px 0 39px 0;
+    margin: 30px 0 15px 0;
 }
 
 .video-block_box {
     max-width: 584px;
-    height: 192px;
+    height: 195px;
 }
 
 .video-block_text {
+    white-space: pre-line;
+    display: block;
+    unicode-bidi: embed;
     font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: normal;
