@@ -48,7 +48,9 @@
       <workItem from="1606653437995" duration="4939000" />
       <workItem from="1606659524749" duration="3869000" />
       <workItem from="1606665490319" duration="33488000" />
-      <workItem from="1606721820503" duration="16156000" />
+      <workItem from="1606721820503" duration="16921000" />
+      <workItem from="1606764179083" duration="1577000" />
+      <workItem from="1606815770641" duration="12256000" />
     </task>
     <servers />
   </component>
@@ -60,10 +62,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="716" y="221" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606722169325" />
-    <state x="818" y="267" key="FileChooserDialogImpl" timestamp="1606697720196">
+    <state x="818" y="267" key="FileChooserDialogImpl" timestamp="1606764394522">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="818" y="267" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1606697720196" />
+    <state x="818" y="267" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1606764394522" />
     <state x="506" y="160" width="1305" height="673" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1606676781380">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
