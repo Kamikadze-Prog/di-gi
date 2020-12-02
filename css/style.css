@@ -732,17 +732,20 @@ body {
 .quote-carousel {
     width: 10px;
     height: 10px;
-    border: 1px solid black;
+    background-color: #2B4074;
     border-radius: 50%;
     margin: 0 5px 0 5px;
 }
+.active-button-2 {
+    border: 1px solid #2B4074;
+    background: #FFFFFF;}
 
 
 /*Footer*/
 .footer-wrapper {
     position: relative;
     height: 639px;
-    background: #2B4074;
+    background: #2b4074;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -833,10 +836,6 @@ body {
     font-size: 12px;
     line-height: 20px;
     color: #FFFFFF;
-}
-
-.social-icon a:hover {
-   background-image-color: red;
 }
 
 .menu-element a:hover {
