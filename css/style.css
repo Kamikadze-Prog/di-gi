@@ -38,7 +38,7 @@ body {
 }
 
 .container {
-    width: 1140px;
+    max-width: 1140px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -64,7 +64,7 @@ body {
 }
 
 .into_title {
-    width: 513px;
+    max-width: 513px;
     max-height: 192px;
     margin-top: 107px;
 }
@@ -96,7 +96,7 @@ body {
 }
 
 .intro_read-more {
-    width: 200px;
+    min-width: 200px;
     height: 50px;
     background: #2B4074;
     border-radius: 3px;
@@ -113,7 +113,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 200px;
+    min-width: 200px;
     height: 50px;
     text-decoration: none;
     color: #F9F6E5;
@@ -177,126 +177,13 @@ body {
     transition: opacity 1s;
 }
 
-
-@media only screen and (max-width: 1024px) {
-    .header_wrapper {
-        padding: 17px 42px 17px 46px;
-    }
-
-    .intro {
-        max-width: 1024px;
-        height: 623px;
-    }
-
-    .into_title {
-        margin-top: 101px;
-    }
-
-    .title_text {
-        font-size: 84px;
-        line-height: 84px;
-    }
-
-    .intro-text {
-        font-size: 18px;
-        line-height: 20px;
-    }
-
-    .intro_intro-text {
-        width: 587px;
-    }
-
-    .intro_pagination {
-        margin-top: 112px;
-    }
-
-    .intro-arrow {
-        top: 183px;
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    .header_wrapper {
-        padding: 17px 30px 17px 44px;
-    }
-
-    .intro {
-        max-width: 769px;
-        height: 465px;
-    }
-
-    .into_title {
-        margin-top: 87px;
-    }
-
-    .title_text {
-        font-size: 60px;
-        line-height: 60px;
-    }
-
-    .intro_pagination {
-        margin-top: 50px;
-    }
-
-    .intro_arrow{
-        top: 156px;
-    }
-}
-
-@media only screen and (max-width: 640px) {
-    .header_wrapper {
-        padding: 17px 30px 17px 44px;
-    }
-    .into_title {
-        margin-top: 101px;
-    }
-    .intro_intro-text {
-        display: none;
-    }
-
-}
-
-
-@media only screen and (max-width: 320px) {
-    .header_wrapper {
-        padding: 7px 20px 7px 25px;
-    }
-    .header {
-        height: 80px;
-    }
-
-    .intro {
-        max-width: 320px;
-        height: 193px;
-    }
-
-    .into_title {
-        width: 272px;
-        margin-top: 36px;
-    }
-    .title_text {
-         font-size: 28px;
-        line-height: 28px;
-    }
-    .intro_read-more {
-        display: none;
-    }
-    .intro_pagination {
-        margin-top: 35px;
-    }
-    .intro_arrow{
-        display: none;
-    }
-}
-
-
 /*Promo section*/
 .promo {
     background: #2B4074;
 }
 
 .promo_wrapper {
-    height: 192px;
+    min-height: 192px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -304,6 +191,7 @@ body {
 }
 
 .promo_text {
+    max-width: 500px;
     color: #FFFFFF;
 }
 
@@ -316,10 +204,8 @@ body {
 }
 
 .promo_text p {
-    width: 500px;
-    height: 42px;
     margin-top: 10px;
-    font-family: 'Dosis', sans-serif;
+    font-family: Dosis, sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 16px;
@@ -331,7 +217,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 200px;
+    min-width: 200px;
     height: 50px;
 }
 
@@ -343,7 +229,6 @@ body {
     line-height: 18px;
     color: #2B4074;
     text-decoration: none;
-
 }
 
 .promo_call-me {
@@ -479,6 +364,175 @@ body {
     text-decoration: none;
     color: #2B4074;
 }
+
+
+/*******************************************-*********/
+@media only screen and (max-width: 1024px) {
+    .header_wrapper {
+        padding: 17px 42px 17px 46px;
+    }
+
+    .intro {
+        max-width: 1024px;
+        height: 623px;
+    }
+
+    .into_title {
+        margin-top: 101px;
+    }
+
+    .title_text {
+        font-size: 84px;
+        line-height: 84px;
+    }
+
+    .intro-text {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .intro_intro-text {
+        width: 587px;
+    }
+
+    .intro_pagination {
+        margin-top: 112px;
+    }
+
+    .intro-arrow {
+        top: 163px;
+    }
+
+    .promo_wrapper {
+        padding: 40px 43px 40px 46px;
+    }
+
+    .promo_text h2 {
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+    .promo_text p {
+        margin-top: 16px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .header_wrapper {
+        padding: 17px 30px 17px 44px;
+    }
+
+    .intro {
+        max-width: 769px;
+        height: 465px;
+    }
+
+    .into_title {
+        margin-top: 87px;
+    }
+
+    .title_text {
+        font-size: 60px;
+        line-height: 60px;
+    }
+
+    .intro_pagination {
+        margin-top: 50px;
+    }
+
+    .intro_arrow {
+        top: 146px;
+    }
+
+    .promo_wrapper {
+        padding: 60px 42px 30px 46px;
+    }
+
+    .promo_text h2 {
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    .promo_text p {
+        font-size: 16px;
+        line-height: 18px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .header_wrapper {
+        padding: 17px 30px 17px 44px;
+    }
+
+    .into_title {
+        margin-top: 101px;
+    }
+
+    .intro_intro-text {
+        display: none;
+    }
+
+    .intro_arrow {
+        top: 126px;
+    }
+
+    .promo_wrapper {
+        padding: 40px 30px 40px 30px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .promo_text {
+        padding-bottom: 40px;
+    }
+}
+
+
+@media only screen and (max-width: 320px) {
+    .header_wrapper {
+        padding: 7px 20px 7px 25px;
+    }
+
+    .header {
+        height: 80px;
+    }
+
+    .intro {
+        max-width: 320px;
+        height: 193px;
+    }
+
+    .into_title {
+        width: 272px;
+        margin-top: 36px;
+    }
+
+    .title_text {
+        font-size: 28px;
+        line-height: 28px;
+    }
+
+    .intro_read-more {
+        display: none;
+    }
+
+    .intro_pagination {
+        margin-top: 35px;
+    }
+
+    .intro_arrow {
+        display: none;
+    }
+
+    .promo_wrapper {
+        padding: 40px 20px 40px 20px;
+    }
+}
+/*---------------------------------*/
+
+
 
 /*Hover Animation*/
 .services-content_hover:hover {
