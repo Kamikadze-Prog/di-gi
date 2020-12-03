@@ -24,7 +24,6 @@ body {
 }
 
 .header_wrapper {
-    max-width: 1229px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -48,7 +47,6 @@ body {
 @media only screen and (max-width: 1024px) {
     .header_wrapper {
         padding: 17px 42px 17px 46px;
-
     }
 }
 
@@ -59,11 +57,18 @@ body {
     }
 }
 
+@media only screen and (max-width: 640px) {
+    .header_wrapper {
+        padding: 17px 30px 17px 44px;
+    }
+}
+
+
 @media only screen and (max-width: 320px) {
     .header_wrapper {
         padding: 7px 20px 7px 25px;
-
     }
+
     .header {
         height: 80px;
     }
