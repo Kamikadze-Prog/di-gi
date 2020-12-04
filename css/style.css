@@ -243,6 +243,7 @@ body {
 
 /*Services***********************************************/
 .services_wrapper {
+    min-height: 546px;
     display: flex;
     background: #FFFFFF;
     mix-blend-mode: normal;
@@ -250,7 +251,7 @@ body {
 }
 
 .services_recent-wrapper {
-    min-width: 390px;
+    width: 410px;
     padding: 90px 0 135px 62px;
 }
 
@@ -312,7 +313,7 @@ body {
 }
 
 .services-content_wrapper {
-    max-width: 923px;
+    width: 920px;
     height: 547px;
     display: flex;
     flex-wrap: wrap;
@@ -320,7 +321,7 @@ body {
 
 .card-wrapper {
     width: 25%;
-    height: 50%;
+    height: 272px;
     border: 1px solid #F9F6E5;
     text-align: center;
     box-sizing: border-box;
@@ -545,7 +546,6 @@ body {
 
     /**/
     .resent-work_wrapper {
-
         padding: 81px 180px 136px 182px;
     }
 
@@ -663,6 +663,7 @@ body {
         padding-bottom: 40px;
     }
 
+
     .services_recent-wrapper {
         text-align: center;
         padding: 24px 40px 40px 40px;
@@ -670,15 +671,6 @@ body {
 
     .services_recent-wrapper hr {
         margin-left: 230px;
-    }
-
-    .services_recent-idea {
-        width: 590px;
-        line-height: 24px;
-    }
-
-    .services_recent-integration {
-        width: 559px;
     }
 
     .services-content_wrapper {
@@ -716,9 +708,7 @@ body {
         margin: 20px 0;
     }
 
-
 }
-
 
 @media only screen and (max-width: 320px) {
     .header_wrapper {
@@ -770,20 +760,6 @@ body {
     .title {
         font-size: 24px;
         line-height: 28px;
-    }
-
-    .services_recent-integration {
-        width: 269px;
-    }
-
-    .services_recent-idea {
-        width: 269px;
-        font-size: 20px;
-        line-height: 24px;
-    }
-
-    .services_recent-wrapper hr {
-        margin-left: 80px;
     }
 
     .text {
@@ -1243,4 +1219,54 @@ body {
     line-height: 19px;
     letter-spacing: 2px;
     color: #4A4A4A;
+}
+
+
+/* Костыль для 4 блока может он и не нужен будет, но решил пока сделать */
+@media only screen and (max-width: 1023px) {
+    .services-content_wrapper {
+        width: 768px;
+    }
+    .card-wrapper {
+        width: 25%;
+        height: 50%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .services-content_wrapper {
+        width: 640px;
+    }
+    .card-wrapper {
+        width: 25%;
+        height: 50%;
+    }
+
+    .services_recent-idea {
+        width: 590px;
+    }
+    .services_recent-integration {
+        width: 559px;
+    }
+}
+@media only screen and (max-width: 639px) {
+    .services-content_wrapper {
+        width: 320px;
+    }
+    .card-wrapper {
+        width: 50%;
+        height: 25%;
+    }
+
+    .services_recent-integration {
+        width: 269px;
+    }
+    .services_recent-idea {
+        width: 269px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .services_recent-wrapper hr {
+        margin-left: 80px;
+    }
 }
