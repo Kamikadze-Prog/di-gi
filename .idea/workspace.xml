@@ -7,6 +7,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -20,6 +27,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$APPLICATION_HOME_DIR$/Exemples" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -70,7 +78,10 @@
       <workItem from="1607095943815" duration="7955000" />
       <workItem from="1607105694587" duration="1717000" />
       <workItem from="1607153190245" duration="6995000" />
-      <workItem from="1607160505685" duration="2318000" />
+      <workItem from="1607160505685" duration="2359000" />
+      <workItem from="1607169380439" duration="192000" />
+      <workItem from="1607169639254" duration="49000" />
+      <workItem from="1607176002776" duration="3702000" />
     </task>
     <servers />
   </component>

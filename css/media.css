@@ -1,0 +1,392 @@
+/*******************************************-*********/
+@media only screen and (max-width: 1024px) {
+    .header_wrapper {
+        padding: 17px 42px 17px 46px;
+    }
+
+    .intro {
+        max-width: 1024px;
+        height: 623px;
+    }
+
+    .into_title {
+        margin-top: 101px;
+    }
+
+    .title_text {
+        font-size: 84px;
+        line-height: 84px;
+    }
+
+    .intro-text {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .intro_intro-text {
+        width: 587px;
+    }
+
+    .intro_pagination {
+        margin-top: 112px;
+    }
+
+    .intro-arrow {
+        top: 163px;
+    }
+
+    .promo_wrapper {
+        padding: 40px 43px 40px 46px;
+    }
+
+    .promo_text h2 {
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+    .promo_text p {
+        margin-top: 16px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .services_wrapper {
+        flex-direction: column;
+    }
+
+    .services_recent-wrapper {
+        max-width: 640px;
+        padding: 52px 0 32px 44px;
+    }
+
+    .services_recent-service {
+        display: flex;
+        justify-content: center;
+    }
+
+    .services-content_wrapper {
+        width: 1024px;
+    }
+
+    .resent-work_wrapper {
+        padding: 81px 180px 136px 182px;
+    }
+
+    .portfolio-img {
+        width: 317px;
+        height: 283px;
+    }
+
+    .content-title {
+        margin-bottom: 30px;
+    }
+
+    .recent-work_info-block {
+        width: 287px;
+        height: 256px;
+        margin-top: 13px;
+    }
+
+    .recent-work_info-block a {
+        padding: 7px 7px;
+    }
+
+    .video-block_wrapper {
+        padding: 80px 146px 80px 146px;
+    }
+
+    .video-block_title hr {
+        margin: 30px 0 15px 0;
+    }
+
+    .video-block_box {
+        max-width: 584px;
+        height: 195px;
+    }
+
+    .video-block_text {
+    }
+
+    .video-block_look-more {
+        margin-left: 564px;
+        margin-top: 360px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .header_wrapper {
+        padding: 17px 30px 17px 44px;
+    }
+
+    .intro {
+        max-width: 769px;
+        height: 465px;
+    }
+
+    .into_title {
+        margin-top: 87px;
+    }
+
+    .title_text {
+        font-size: 60px;
+        line-height: 60px;
+    }
+
+    .intro_pagination {
+        margin-top: 50px;
+    }
+
+    .intro_arrow {
+        top: 146px;
+    }
+
+    .promo_wrapper {
+        padding: 60px 42px 30px 46px;
+    }
+
+    .promo_text h2 {
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    .promo_text p {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .services_recent-wrapper {
+        justify-content: center;
+        padding: 50px 35px 27px 44px;
+    }
+
+
+    .services_recent-idea {
+        margin-top: 30px;
+        margin-bottom: 32px;
+        line-height: 24px;
+    }
+
+    .services-content_wrapper {
+        width: 768px;
+    }
+
+    .card-wrapper {
+        width: 50%;
+        height: 24%;
+    }
+
+    .resent-work_wrapper {
+        padding: 80px 55px 136px 52px;
+    }
+
+}
+
+@media only screen and (max-width: 640px) {
+    .header_wrapper {
+        padding: 17px 30px 17px 44px;
+    }
+
+    .into_title {
+        margin-top: 101px;
+    }
+
+    .intro_intro-text {
+        display: none;
+    }
+
+    .intro_arrow {
+        top: 126px;
+    }
+
+    .promo_wrapper {
+        padding: 40px 30px 40px 30px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .promo_text {
+        padding-bottom: 40px;
+    }
+
+
+    .services_recent-wrapper {
+        text-align: center;
+        padding: 24px 40px 40px 40px;
+    }
+
+    .services_recent-idea {
+        margin-top: 12px;
+        margin-bottom: 30px;
+    }
+
+    .services_recent-wrapper hr {
+        margin-left: auto;
+    }
+
+    .services-content_wrapper {
+        width: 640px;
+    }
+
+    .card-wrapper {
+        width: 50%;
+        height: 25%;
+    }
+
+    .recent-work_content {
+        margin-top: 40px;
+    }
+
+    .resent-work_wrapper {
+
+        padding: 40px 61px 43px 62px;
+    }
+
+    .recent-work_info-block {
+        width: 470px;
+        height: 418px;
+        margin-top: 21px;
+    }
+
+    .portfolio-img {
+        width: 518px;
+        height: 460px;
+        object-fit: cover;
+
+    }
+
+    .content-title {
+        margin: 20px 0;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+
+    .intro_arrow {
+        display: none;
+    }
+
+    .services_wrapper {
+        align-items: center;
+    }
+
+    .services-content_wrapper {
+        width: 300px;
+    }
+
+    .card-wrapper {
+        width: 100%;
+        height: 270px;
+    }
+
+    .portfolio-img {
+        width: 280px;
+        height: 250px;
+    }
+
+    .title {
+        font-size: 30px;
+        line-height: 28px;
+    }
+
+    .recent-work_info-block {
+        width: 254px;
+        height: 227px;
+        margin-top: 11px;
+    }
+
+    .recent-work_content {
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .header_wrapper {
+        padding: 7px 20px 7px 25px;
+    }
+
+    .header {
+        height: 80px;
+    }
+
+    .intro {
+        max-width: 320px;
+        height: 193px;
+    }
+
+    .into_title {
+        width: 272px;
+        margin-top: 36px;
+    }
+
+    .title_text {
+        font-size: 28px;
+        line-height: 28px;
+    }
+
+    .intro_read-more {
+        display: none;
+    }
+
+    .intro_pagination {
+        margin-top: 35px;
+    }
+
+    .promo_wrapper {
+        padding: 40px 20px 40px 20px;
+    }
+
+
+    .services_recent-wrapper {
+        width: 300px;
+        margin: 0 0;
+        padding: 25px 19px 40px 21px;
+    }
+
+    .title {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .text {
+        font-size: 15px;
+        line-height: 17px;
+    }
+
+    .services-content_wrapper {
+        width: 280px;
+    }
+
+    .services_recent-integration {
+        width: 269px;
+    }
+
+    .services_recent-idea {
+        width: 269px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+
+    .resent-work_wrapper {
+        height: 1384px;
+        padding: 40px 20px 80px 20px;
+    }
+
+    .resent-title {
+        margin-bottom: 20px;
+    }
+
+    .content-title {
+        margin: 20px 0;
+    }
+
+    .portfolio-img {
+        width: 280px;
+        height: 250px;
+    }
+
+    .recent-work_info-block a {
+        padding: 6px 6px;
+    }
+}
