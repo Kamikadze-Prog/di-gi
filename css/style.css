@@ -251,7 +251,8 @@ body {
 }
 
 .services_recent-wrapper {
-     padding: 90px 0 135px 62px;
+    width: 450px;
+    padding: 90px 0 135px 62px;
 }
 
 .services_recent-service {
@@ -267,7 +268,6 @@ body {
 }
 
 .services_recent-idea {
-    width: 450px;
     margin-top: 64px;
     padding-bottom: 31px;
     font-family: Roboto, sans-serif;
@@ -298,7 +298,6 @@ body {
 }
 
 .services_recent-integration {
-    width: 400px;
     margin-top: 35px;
     color: #797979;
 }
@@ -313,14 +312,15 @@ body {
 
 .services-content_wrapper {
     width: 920px;
-    height: 547px;
+    min-height: 547px;
+    block-size: auto;
     display: flex;
     flex-wrap: wrap;
 }
 
 .card-wrapper {
     width: 25%;
-    height: 272px;
+    height: 50%;
     border: 1px solid #F9F6E5;
     text-align: center;
     box-sizing: border-box;
@@ -392,12 +392,12 @@ body {
 
 /*Recent work*/
 
- .resent-work {
-     background: linear-gradient(180deg, #2B4074 0%, rgba(43, 64, 116, 0) 100%);
- }
+.resent-work {
+    background: linear-gradient(180deg, #2B4074 0%, rgba(43, 64, 116, 0) 100%);
+}
+
 .resent-work_wrapper {
     min-height: 668px;
-
     padding: 80px 150px 130px 150px;
     display: flex;
     flex-direction: column;
@@ -506,8 +506,8 @@ body {
         top: 163px;
     }
 
-    .services-content_wrapper {
-        width: 1024px;
+    .services_recent-wrapper {
+        width: 640px;
     }
 
     .promo_wrapper {
@@ -538,16 +538,10 @@ body {
         justify-content: center;
     }
 
-    .services_recent-idea, .services_recent-integration {
-        width: 690px;
-    }
-
     .services-content_wrapper {
         width: 1024px;
-        height: 542px;
-    }
+     }
 
-    /**/
     .resent-work_wrapper {
         padding: 81px 180px 136px 182px;
     }
@@ -618,31 +612,28 @@ body {
         padding: 50px 35px 27px 44px;
     }
 
+
     .services_recent-idea {
         line-height: 24px;
     }
 
     .services-content_wrapper {
         width: 768px;
-        height: 1346px;
     }
 
     .card-wrapper {
         width: 50%;
-        height: 25%;
+        height: 24%;
     }
 
     .resent-work_wrapper {
-        height: 1032px;
         padding: 80px 55px 136px 52px;
     }
 
 }
 
 @media only screen and (max-width: 640px) {
-
     .header_wrapper {
-        height: 912px;
         padding: 17px 30px 17px 44px;
     }
 
@@ -680,7 +671,6 @@ body {
 
     .services-content_wrapper {
         width: 640px;
-        height: 1244px;
     }
 
     .card-wrapper {
@@ -688,13 +678,12 @@ body {
         height: 25%;
     }
 
-
     .recent-work_content {
         margin-top: 40px;
     }
 
     .resent-work_wrapper {
-        height: 2291px;
+
         padding: 40px 61px 43px 62px;
     }
 
@@ -713,6 +702,44 @@ body {
         margin: 20px 0;
     }
 
+
+}
+
+
+@media only screen and (max-width: 480px) {
+
+    .intro_arrow {
+        display: none;
+    }
+
+    .services_recent-wrapper {
+        width: 480px;
+    }
+
+    .services_wrapper {
+        align-items: center;
+    }
+    .services_recent-wrapper hr {
+        margin-left: 140px;
+    }
+
+    .services-content_wrapper {
+        width: 440px;
+    }
+
+    .card-wrapper {
+        width: 100%;
+        height: 270px;
+    }
+
+    .portfolio-img {
+        width: 280px;
+        height: 250px;
+    }
+
+    .recent-work_content {
+        justify-content: center;
+    }
 }
 
 @media only screen and (max-width: 320px) {
@@ -747,17 +774,13 @@ body {
         margin-top: 35px;
     }
 
-    .intro_arrow {
-        display: none;
-    }
-
     .promo_wrapper {
         padding: 40px 20px 40px 20px;
     }
 
 
     .services_recent-wrapper {
-        min-width: 300px;
+        width: 300px;
         margin: 0 0;
         padding: 25px 19px 40px 21px;
     }
@@ -774,14 +797,21 @@ body {
 
     .services-content_wrapper {
         width: 280px;
-        height: 2485px;
     }
 
-    .card-wrapper {
-        width: 280px;
-        height: 307px;
+    .services_recent-integration {
+        width: 269px;
     }
 
+    .services_recent-idea {
+        width: 269px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .services_recent-wrapper hr {
+        margin-left: 80px;
+    }
 
     .resent-work_wrapper {
         height: 1384px;
@@ -1228,7 +1258,7 @@ body {
 }
 
 
-/* Костыль для 4 блока может он и не нужен будет, но решил пока сделать */
+/* Костыль для 4 блока может он и не нужен будет, но решил пока сделать
 @media only screen and (max-width: 1023px) {
     .services-content_wrapper {
         width: 768px;
@@ -1277,4 +1307,4 @@ body {
     .services_recent-wrapper hr {
         margin-left: 80px;
     }
-}
+}*/
