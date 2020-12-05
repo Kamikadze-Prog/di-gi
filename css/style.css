@@ -251,7 +251,7 @@ body {
 }
 
 .services_recent-wrapper {
-    width: 450px;
+    max-width: 640px;
     padding: 90px 0 135px 62px;
 }
 
@@ -448,10 +448,10 @@ body {
 
 .recent-work_info-block {
     position: absolute;
-    width: 243px;
-    height: 217px;
+    width: 98%;
+    height: 98%;
     background: #F9F6E5;
-    margin-top: 11px;
+    margin-top: 1;
     mix-blend-mode: normal;
     border-radius: 4px;
     display: flex;
@@ -506,10 +506,6 @@ body {
         top: 163px;
     }
 
-    .services_recent-wrapper {
-        width: 640px;
-    }
-
     .promo_wrapper {
         padding: 40px 43px 40px 46px;
     }
@@ -540,7 +536,7 @@ body {
 
     .services-content_wrapper {
         width: 1024px;
-     }
+    }
 
     .resent-work_wrapper {
         padding: 81px 180px 136px 182px;
@@ -614,6 +610,8 @@ body {
 
 
     .services_recent-idea {
+        margin-top: 30px;
+        margin-bottom: 32px;
         line-height: 24px;
     }
 
@@ -665,8 +663,13 @@ body {
         padding: 24px 40px 40px 40px;
     }
 
+    .services_recent-idea {
+        margin-top: 12px;
+        margin-bottom: 30px;
+    }
+
     .services_recent-wrapper hr {
-        margin-left: 230px;
+        margin-left: auto;
     }
 
     .services-content_wrapper {
@@ -705,26 +708,18 @@ body {
 
 }
 
-
 @media only screen and (max-width: 480px) {
 
     .intro_arrow {
         display: none;
     }
 
-    .services_recent-wrapper {
-        width: 480px;
-    }
-
     .services_wrapper {
         align-items: center;
     }
-    .services_recent-wrapper hr {
-        margin-left: 140px;
-    }
 
     .services-content_wrapper {
-        width: 440px;
+        width: 420px;
     }
 
     .card-wrapper {
@@ -735,6 +730,17 @@ body {
     .portfolio-img {
         width: 280px;
         height: 250px;
+    }
+
+    .title {
+        font-size: 30px;
+        line-height: 28px;
+    }
+
+    .recent-work_info-block {
+        width: 254px;
+        height: 227px;
+        margin-top: 11px;
     }
 
     .recent-work_content {
@@ -809,9 +815,6 @@ body {
         line-height: 24px;
     }
 
-    .services_recent-wrapper hr {
-        margin-left: 80px;
-    }
 
     .resent-work_wrapper {
         height: 1384px;
@@ -826,17 +829,11 @@ body {
         margin: 20px 0;
     }
 
-
     .portfolio-img {
         width: 280px;
         height: 250px;
     }
 
-    .recent-work_info-block {
-        width: 254px;
-        height: 227px;
-        margin-top: 11px;
-    }
 
     .recent-work_info-block a {
         padding: 6px 6px;
@@ -845,7 +842,6 @@ body {
 }
 
 /*---------------------------------*/
-
 /*Video block*/
 .video-block_wrapper {
     height: 580px;
@@ -1256,55 +1252,3 @@ body {
     letter-spacing: 2px;
     color: #4A4A4A;
 }
-
-
-/* Костыль для 4 блока может он и не нужен будет, но решил пока сделать
-@media only screen and (max-width: 1023px) {
-    .services-content_wrapper {
-        width: 768px;
-    }
-    .card-wrapper {
-        width: 25%;
-        height: 50%;
-    }
-}
-
-@media only screen and (max-width: 767px) {
-    .services-content_wrapper {
-        width: 640px;
-        height: 500px;
-    }
-    .card-wrapper {
-        width: 25%;
-        height: 50%;
-    }
-
-    .services_recent-idea {
-        width: 590px;
-    }
-    .services_recent-integration {
-        width: 559px;
-    }
-}
-@media only screen and (max-width: 639px) {
-    .services-content_wrapper {
-        width: 320px;
-        height: 2487px;
-    }
-    .card-wrapper {
-        width: 100%;
-        height: 12.5%;
-    }
-
-    .services_recent-integration {
-        width: 269px;
-    }
-    .services_recent-idea {
-        width: 269px;
-        font-size: 20px;
-        line-height: 24px;
-    }
-    .services_recent-wrapper hr {
-        margin-left: 80px;
-    }
-}*/
