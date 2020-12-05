@@ -685,7 +685,7 @@ body {
 
 /*Quotes-block*/
 .quotes-wrapper {
-    height: 480px;
+    height: 523px;
     background: #FFFFFF;
     display: flex;
     flex-direction: column;
@@ -693,11 +693,12 @@ body {
 }
 
 .quotes_title {
-    width: 950px;
+    max-width: 950px;
     height: 350px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
 .quotes_title img {
@@ -733,6 +734,7 @@ body {
 }
 
 .carousel-indicators {
+    margin-top: 36px;
     display: flex;
 }
 

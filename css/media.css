@@ -215,6 +215,30 @@
         margin-left: 26.5%;
         margin-top: 370px;
     }
+
+    .quotes_title img {
+        margin-top: 60px;
+        margin-bottom: 40px;
+    }
+
+    .quotes-wrapper p {
+        font-size: 32px;
+        line-height: 37px;
+        margin-bottom: 40px;
+    }
+
+    .bolt-text {
+        line-height: 34px;
+    }
+
+    .quotes-wrapper cite {
+        margin-top: 50px;
+        line-height: 23px;
+    }
+
+    .carousel-indicators {
+        margin-top: 80px;;
+    }
 }
 
 @media only screen and (max-width: 640px) {
@@ -328,6 +352,10 @@
         margin: auto;
         position: static;
     }
+
+    .quotes-wrapper p {
+        line-height: 34px;
+    }
 }
 
 @media only screen and (max-width: 480px) {
@@ -384,12 +412,28 @@
         margin-left: 0;
         margin-bottom: 100px;
     }
+
     .video-block_title hr {
         width: 60px;
         height: 8px;
         margin: 20px auto 23px auto;
     }
 
+    .quotes-wrapper p {
+        font-size: 24px;
+        line-height: 26px;
+        margin-bottom: 40px;
+    }
+
+    .quotes-wrapper cite {
+        margin-top: 60px;
+        font-size: 24px;
+        line-height: 23px;
+    }
+
+    .carousel-indicators {
+        margin-top: 90px;;
+    }
 }
 
 @media only screen and (max-width: 320px) {
@@ -481,9 +525,23 @@
     .recent-work_info-block a {
         padding: 6px 6px;
     }
+
     .video-block_title hr {
         width: 45px;
         height: 8px;
         margin: 20px auto 23px auto;
+    }
+
+    .quotes_title img {
+        margin-top: 60px;
+        margin-bottom: 40px;
+    }
+
+    .quotes-wrapper cite {
+        margin-top: 50px;
+     }
+
+    .carousel-indicators {
+        margin-top: 80px;;
     }
 }
