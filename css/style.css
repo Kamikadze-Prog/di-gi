@@ -821,14 +821,18 @@ body {
     color: #7EBF84;
 }
 
-/*Go top*/
 .return-to-header {
     height: 42px;
     background: #F9F6E5;
 }
-
 .return-wrapper {
-    /*margin-left: 1205px;*/
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 147px;
+}
+
+.inner-wrapper {
     width: 88px;
     height: 42px;
     display: flex;
