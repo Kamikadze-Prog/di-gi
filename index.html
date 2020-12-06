@@ -77,7 +77,7 @@
     </div>
 </section>
 
-<section class="services">
+<section class="services" id="services">
     <div class="services_wrapper wrapper ">
         <div class="services_recent-wrapper">
             <div class=" services_recent-service">
@@ -182,7 +182,7 @@
 <section class="resent-work">
     <div class="resent-work_wrapper wrapper">
         <div class="resent-work_title">
-            <h2 class="resent-title title">Наши Проекты</h2>
+            <h2 class="resent-title title" id="projects">Наши Проекты</h2>
             <hr class="line white-line">
         </div>
 
@@ -223,7 +223,7 @@
     </div>
 </section>
 
-<section class="video-block">
+<section class="video-block" id="video-block">
     <div class="video-block_wrapper wrapper">
         <div class="video-block_img">
             <img src="images/video.png" alt="video">
@@ -249,8 +249,7 @@
     </div>
 </section>
 
-
-<section class="last-news">
+<section class="last-news" id="last-news">
     <div class="last-news_wrapper wrapper">
         <div class="last-news_title">
             <h2 class="news_title title">Последние Новости</h2>
@@ -411,9 +410,9 @@
                         <a class="menu-items-link" href="#">КОНТАКТЫ</a>
                         <ul class="menu-items_elements">
                             <li class="menu-element">
-                                <a href="#">+80 555 55 66</a>
+                                <a href="tel:+80 555 55 66">+80 555 55 66</a>
                             </li>
-                            <li class="menu-element"><a href="#">digi@gmail.com</a></li>
+                            <li class="menu-element"><a href="mailto:digi@gmail.com">digi@gmail.com</a></li>
                         </ul>
                     </li>
                     <li class="menu-items">
@@ -427,16 +426,16 @@
                         <a class="menu-items-link" href="#">ПОМОЩЬ</a>
                         <ul class="menu-items_elements">
                             <li class="menu-element"><a href="#">Как с нами связаться?</a></li>
-                            <li class="menu-element"><a href="#"> Что такое диджитал?</a></li>
+                            <li class="menu-element"><a href="#services"> Что такое диджитал?</a></li>
                             <li class="menu-element"><a href="#">Стоимость услуг</a></li>
                         </ul>
                     </li>
                     <li class="menu-items">
                         <a class="menu-items-link" href="#">МЕНЮ</a>
                         <ul class="menu-items_elements">
-                            <li class="menu-element"><a href="#">Наши проекты</a></li>
-                            <li class="menu-element"><a href="#">Команда</a></li>
-                            <li class="menu-element"><a href="#">Блог</a></li>
+                            <li class="menu-element"><a href="#projects">Наши проекты</a></li>
+                            <li class="menu-element"><a href="#video-block">Команда</a></li>
+                            <li class="menu-element"><a href="#last-news">Блог</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -446,10 +445,9 @@
 </footer>
 <div class="return-to-header wrapper">
     <div class="return-wrapper">
-        <div class="inner-wrapper">
+        <a class="go-top" href="#">
             <p>ВВЕРХ</p>
-            <a href="#"><img src="images/back-top.svg" alt="go-back"></a>
-        </div>
+            <img src="images/back-top.svg" alt="go-back"></a>
     </div>
 </div>
 
