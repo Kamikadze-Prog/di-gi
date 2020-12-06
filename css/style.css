@@ -835,9 +835,12 @@ body {
     color: #7EBF84;
 }
 
+.go-to-header {
+    background: #F9F6E5;
+}
 .return-to-header {
     height: 42px;
-    background: #F9F6E5;
+
 }
 
 .return-wrapper {
