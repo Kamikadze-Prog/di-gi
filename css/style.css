@@ -10,7 +10,8 @@ h1, h2, p {
 ul {
     list-style-type: none;
     padding: 0;
-    margin-left: 0;
+
+    margin: 0;
 }
 
 body {
@@ -477,17 +478,18 @@ body {
     display: flex;
 }
 
-.video-block_img{
+.video-block_img {
     width: 460px;
     height: 420px;
 }
-.video-block_img img{
+
+.video-block_img img {
     width: 460px;
     height: 420px;
 }
 
 .video-block_title {
-    display:table;
+    display: table;
     width: 584px;
     margin-left: 100px;
 }
@@ -499,9 +501,10 @@ body {
 .block_title {
     color: #4A4A4A;
 }
+
 .video-block_text {
     white-space: pre-line;
-     color: #9B9B9B;
+    color: #9B9B9B;
 }
 
 .video-block_look-more {
@@ -693,8 +696,7 @@ body {
 }
 
 .quotes_title {
-    max-width: 950px;
-    height: 350px;
+    margin-top: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -702,12 +704,11 @@ body {
 }
 
 .quotes_title img {
-    margin-top: 90px;
     margin-bottom: 30px;
 }
 
-.quotes-wrapper p {
-    height: 115px;
+.quote-wrapper p {
+    margin-bottom: 30px;
     font-family: Roboto Condensed, sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -723,7 +724,7 @@ body {
     color: #2B4074;
 }
 
-.quotes-wrapper cite {
+.quote-wrapper cite {
     font-family: Roboto Condensed, sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -734,7 +735,7 @@ body {
 }
 
 .carousel-indicators {
-    margin-top: 36px;
+    margin-top: 80px;
     display: flex;
 }
 

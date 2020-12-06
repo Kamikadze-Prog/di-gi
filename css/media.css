@@ -113,6 +113,20 @@
         margin-left: 455px;
         margin-top: 320px;
     }
+
+    .quotes_title img {
+        margin-bottom: 44px;
+    }
+
+    .quote-wrapper p {
+        margin-bottom: 45px;
+        font-size: 32px;
+        line-height: 37px;
+    }
+
+    .quote-wrapper cite {
+        font-size: 20px;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -216,28 +230,25 @@
         margin-top: 370px;
     }
 
-    .quotes_title img {
+    .quotes_title {
         margin-top: 60px;
+    }
+
+    .quotes_title img {
         margin-bottom: 40px;
     }
 
-    .quotes-wrapper p {
-        font-size: 32px;
-        line-height: 37px;
+    .quote-wrapper p {
         margin-bottom: 40px;
+        line-height: 34px;
     }
 
     .bolt-text {
         line-height: 34px;
     }
 
-    .quotes-wrapper cite {
-        margin-top: 50px;
+    .quote-wrapper cite {
         line-height: 23px;
-    }
-
-    .carousel-indicators {
-        margin-top: 80px;;
     }
 }
 
@@ -352,10 +363,6 @@
         margin: auto;
         position: static;
     }
-
-    .quotes-wrapper p {
-        line-height: 34px;
-    }
 }
 
 @media only screen and (max-width: 480px) {
@@ -419,20 +426,17 @@
         margin: 20px auto 23px auto;
     }
 
-    .quotes-wrapper p {
+    .quote-wrapper p {
         font-size: 24px;
         line-height: 26px;
-        margin-bottom: 40px;
     }
 
-    .quotes-wrapper cite {
-        margin-top: 60px;
-        font-size: 24px;
+    .quote-wrapper cite {
+        font-size: 20px;
         line-height: 23px;
     }
-
-    .carousel-indicators {
-        margin-top: 90px;;
+    .carousel-indicators  {
+        margin-top: 40px;
     }
 }
 
@@ -530,18 +534,5 @@
         width: 45px;
         height: 8px;
         margin: 20px auto 23px auto;
-    }
-
-    .quotes_title img {
-        margin-top: 60px;
-        margin-bottom: 40px;
-    }
-
-    .quotes-wrapper cite {
-        margin-top: 50px;
-     }
-
-    .carousel-indicators {
-        margin-top: 80px;;
     }
 }
