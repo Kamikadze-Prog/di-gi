@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
+
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.css">
+
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -83,10 +87,10 @@
             <div class=" services_recent-service">
                 <h2 class=" title">Сервис</h2>
             </div>
+            <div class="reverse-line">
             <p class="services_recent-idea">От идеи до незабываемого и
                 измеримого результата.</p>
-            <div>
-                <hr class="line dark-blue-line">
+                <hr class="line dark-blue-line " id="line-to-top">
             </div>
             <p class="services_recent-integration text">Интеграция безупречного производства, передовых
                 технологий и тщательного измерения производительности</p>
@@ -142,7 +146,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="services-content_card card-wrapper">
                 <div class="services-content_hover">
                     <img src="images/icon-6.png" alt="ux">
@@ -153,7 +156,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="services-content_card card-wrapper">
                 <div class="services-content_hover">
                     <img src="images/icon-7.png" alt="target">
@@ -164,7 +166,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="services-content_card card-wrapper">
                 <div class="services-content_hover">
                     <img src="images/icon-8.png" alt="product">
@@ -178,14 +179,12 @@
         </div>
     </div>
 </section>
-
 <section class="resent-work">
     <div class="resent-work_wrapper wrapper">
         <div class="resent-work_title">
             <h2 class="resent-title title" id="projects">Наши Проекты</h2>
             <hr class="line white-line">
         </div>
-
         <div class="recent-work_content">
             <div class="recent-work_portfolio">
                 <img class="portfolio-img" src="images/portfolio-1.png" alt="">
@@ -245,7 +244,6 @@
         <div class="video-block_look-more">
             <a class="look-more" href="#">СМОТРЕТЬ ВИДЕО</a>
         </div>
-
     </div>
 </section>
 
@@ -348,28 +346,34 @@
     </div>
 </section>
 
-
 <section class="quotes">
     <div class="quotes-wrapper wrapper">
         <div class="quotes_title">
             <img src="images/quot.svg" alt="quotation-mark">
-            <blockquote class="quote-wrapper">
-                <p>Если нужно создавать либо повышать имидж компании,<br>
-                    то <span class="bolt-text">диджитал-маркетинг</span> является наиболее подходящим</p>
-                <cite>- Маргарита Акулич</cite>
-            </blockquote>
         </div>
-        <ul class="carousel-indicators">
-            <li class="quote-carousel active-button-1">
-                <a href="#"></a>
-            </li>
-            <li class="quote-carousel active-button-2">
-                <a href="#"></a>
-            </li>
-            <li class="quote-carousel active-button-3">
-                <a href="#"></a>
-            </li>
-        </ul>
+        <div id="owl-demo" class="owl-carousel owl-theme quotes-center">
+            <div>
+                <blockquote class="quote-wrapper">
+                    <p>Если нужно создавать либо повышать имидж компании,<br>
+                        то <span class="bolt-text">диджитал-маркетинг</span> является наиболее подходящим</p>
+                    <cite>- Маргарита Акулич</cite>
+                </blockquote>
+            </div>
+            <div>
+                <blockquote class="quote-wrapper">
+                    <p>Если нужно создавать тогда бери и создавай,<br>
+                        а <span class="bolt-text">диджитал-маркетинг</span> сможет вам помочь в етом </p>
+                    <cite>- Анонимный Астролог</cite>
+                </blockquote>
+            </div>
+            <div>
+                <blockquote class="quote-wrapper">
+                    <p>Если хочещь увидеть что-то новое тогда наш<br>
+                        <span class="bolt-text">диджитал-маркетинг</span> поможет вам это увидеть</p>
+                    <cite>- Великий Смотритель</cite>
+                </blockquote>
+            </div>
+        </div>
     </div>
 </section>
 
@@ -446,13 +450,16 @@
 <section class="go-to-header">
     <div class="return-to-header wrapper">
         <div class="return-wrapper">
-            <a class="go-top go_to_top" href="#"  >
+            <a class="go-top go_to_top" href="#">
                 <p>ВВЕРХ</p>
                 <img src="images/back-top.svg" alt="go-back"></a>
         </div>
     </div>
 </section>
 
+
+<script src="js/jquery-1.9.1.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
 <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
 <script src="js/main.js"></script>
 </body>
