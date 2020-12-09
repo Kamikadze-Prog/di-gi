@@ -62,7 +62,7 @@
 
 /* CSS3 Transitions */
 
-#owl-demo .item img{
+#owl-demo-1 .item img, #owl-demo-2 .item img {
     display: block;
     width: 100%;
     height: auto;

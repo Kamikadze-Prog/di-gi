@@ -31,6 +31,10 @@ body {
     padding: 17px 150px 17px 46px;
 }
 
+.header_logo {
+    margin-left: 15px;
+}
+
 .wrapper {
     max-width: 1440px;
     margin-left: auto;
@@ -63,6 +67,12 @@ body {
     align-items: center;
     color: #FFFFFF;
 }
+.center-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 135px;
+}
 
 .into_title {
     max-width: 513px;
@@ -82,7 +92,7 @@ body {
 }
 
 .intro_intro-text {
-    margin-top: 18px;
+    margin-top: 25px;
     width: 886px;
     height: 60px;
 }
@@ -97,7 +107,9 @@ body {
 }
 
 .intro_read-more {
+    position: absolute;
     min-width: 200px;
+    top: 375px;
     height: 50px;
     background: #2B4074;
     border-radius: 3px;
