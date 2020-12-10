@@ -231,7 +231,7 @@ body {
 
 .services_recent-wrapper {
     max-width: 408px;;
-    padding: 90px 0 135px 62px;
+    padding: 90px 0 135px 60px;
 }
 
 .reverse-line {
@@ -256,8 +256,8 @@ body {
 }
 
 .services_recent-idea {
-    margin-top: 64px;
-    padding-bottom: 31px;
+    margin-top: 73px;
+    padding-bottom: 23px;
     font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -286,7 +286,7 @@ body {
 }
 
 .services_recent-integration {
-    margin-top: 35px;
+    margin-top: 23px;
     color: #797979;
 }
 
@@ -384,7 +384,7 @@ body {
 
 .resent-work_wrapper {
     min-height: 668px;
-    padding: 80px 150px 130px 150px;
+    padding: 75px 150px 130px 150px;
     display: flex;
     flex-direction: column;
 }
@@ -398,19 +398,19 @@ body {
 }
 
 .recent-work_content {
-    margin-top: 80px;
+    margin-top: 72px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .resent-title {
-    margin-bottom: 24px;
+    margin-bottom: 17px;
     color: #FFFFFF;
 }
 
 .content-title {
-    margin-top: 30px;
+    margin-top: 35px;
     font-family: Roboto Condensed, sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -487,7 +487,7 @@ body {
 }
 
 .video-block_title hr {
-    margin: 30px 0 15px 0;
+    margin: 30px 0 40px 0;
 }
 
 .block_title {
@@ -505,7 +505,7 @@ body {
     background: #2B4074;
     border-radius: 3px;
     position: absolute;
-    margin-left: 280px;
+    margin-left: 274px;
     margin-top: 360px;
 }
 
@@ -725,7 +725,7 @@ body {
 }
 
 .footer_feedback-text {
-    margin-top: 158px;
+    margin-top: 154px;
     align-self: flex-start;
     max-width: 700px;
 }
@@ -749,7 +749,7 @@ body {
 
 .social-icon {
     width: 285px;
-    height: 64px;
+    height: 62px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -768,11 +768,11 @@ body {
 .menu-wrapper {
     display: flex;
     color: #FFFFFF;
-    margin-top: 85px;
+    margin-top: 84px;
 }
 
 .menu-items {
-    width: 285px;
+    width: 284px;
 }
 
 .menu-items .menu-items-link {
@@ -787,7 +787,7 @@ body {
 }
 
 .menu-items_elements {
-    padding: 22px 0 0 0;
+    padding: 20px 0 0 0;
     margin-left: 0;
 }
 

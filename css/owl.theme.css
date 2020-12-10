@@ -98,6 +98,14 @@
     border-radius: 30px;
 }
 
+
+@media only screen and (max-width: 1024px) {
+    #owl-demo-1 .owl-buttons {
+        width: 56px;
+        height: 112px;
+    }
+}
+
 @media only screen and (max-width: 768px) {
     #owl-demo-1 .owl-controls {
         top: 38%;
