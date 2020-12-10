@@ -190,7 +190,7 @@
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px)  {
     .header_wrapper {
         padding: 17px 30px 17px 44px;
     }
@@ -379,7 +379,7 @@
     }
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 640px)and (orientation: portrait) {
     .header_wrapper {
         padding: 17px 30px 17px 44px;
     }
@@ -514,7 +514,7 @@
     }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 480px)  and (orientation: portrait){
     .header_wrapper {
         padding: 10px 20px 7px 35px;
     }
@@ -700,7 +700,7 @@
     }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 320px)and (orientation: portrait) {
     .header_wrapper {
         padding: 7px 20px 7px 25px;
     }
