@@ -68,10 +68,6 @@
         padding: 81px 180px 136px 182px;
     }
 
-    .portfolio-img {
-        width: 317px;
-        height: 283px;
-    }
 
     .content-title {
         margin-bottom: 30px;
@@ -91,10 +87,8 @@
         padding: 60px 0 80px 46px;
     }
 
-    .video-block_img {
-        min-width: 395px;
-        height: 380px;
-        overflow: hidden;
+    .video-block_img img {
+        min-width: 200px;
     }
 
     .video-block_title {
@@ -106,8 +100,8 @@
     }
 
     .video-block_look-more {
-        margin-left: 455px;
-        margin-top: 320px;
+        margin-left: 174px;
+        margin-top: 306px;
     }
 
     .quotes_title img {
@@ -190,7 +184,7 @@
     }
 }
 
-@media only screen and (max-width: 768px)  {
+@media only screen and (max-width: 768px) {
     .header_wrapper {
         padding: 17px 30px 17px 44px;
     }
@@ -263,18 +257,8 @@
     }
 
     .video-block_wrapper {
+        height: 479px;
         padding: 40px 43px 129px 46px;
-    }
-
-    .video-block_img {
-        min-width: 240px;
-        height: 227px;
-        background-size: cover;
-    }
-
-    .video-block_img img {
-        width: 100%;
-        height: auto;
     }
 
     .video-block_title {
@@ -292,7 +276,7 @@
     }
 
     .video-block_look-more {
-        margin-left: 26.5%;
+        margin-left: -5%;
         margin-top: 370px;
     }
 
@@ -379,7 +363,7 @@
     }
 }
 
-@media only screen and (max-width: 640px)and (orientation: portrait) {
+@media only screen and (max-width: 640px) {
     .header_wrapper {
         padding: 17px 30px 17px 44px;
     }
@@ -428,6 +412,12 @@
         width: 640px;
     }
 
+    .video-block_wrapper {
+        height: 1007px;
+    }
+    .portfolio-img {
+        padding: 25px;
+    }
     .card-wrapper {
         width: 50%;
         height: 25%;
@@ -458,7 +448,7 @@
     }
 
     .video-block_img {
-        width: 518px;
+        max-width: 518px;
         min-height: 490px;
     }
 
@@ -514,7 +504,7 @@
     }
 }
 
-@media only screen and (max-width: 480px)  and (orientation: portrait){
+@media only screen and (max-width: 480px)  and (orientation: portrait) {
     .header_wrapper {
         padding: 10px 20px 7px 35px;
     }
@@ -562,6 +552,9 @@
         margin-top: 0;
     }
 
+    .video-block_wrapper {
+        height: 844px;
+    }
     .card-wrapper {
         width: 100%;
         height: 270px;

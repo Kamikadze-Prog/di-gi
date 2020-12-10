@@ -464,24 +464,24 @@ body {
 }
 
 .video-block_wrapper {
-    padding: 60px 146px;
+    padding: 60px 0 60px 146px;
     display: flex;
+    justify-content: center;
     min-height: 560px;
 }
 
 .video-block_img {
     width: 460px;
-    height: 420px;
 }
 
 .video-block_img img {
-    width: 460px;
-    height: 420px;
+    width: 100%;
+    height: auto;
 }
 
 .video-block_title {
     display: table;
-    width: 584px;
+    width: 517px;
     margin-left: 100px;
 }
 
@@ -504,7 +504,7 @@ body {
     background: #2B4074;
     border-radius: 3px;
     position: absolute;
-    margin-left: 564px;
+    margin-left: 280px;
     margin-top: 360px;
 }
 
