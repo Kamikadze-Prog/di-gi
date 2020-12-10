@@ -8,6 +8,10 @@
         height: 623px;
     }
 
+    .intro_read-more {
+        margin-top: -30px;
+    }
+
     .into_title {
         margin-top: 101px;
     }
@@ -24,14 +28,6 @@
 
     .intro_intro-text {
         width: 587px;
-    }
-
-    .intro_pagination {
-        margin-top: 112px;
-    }
-
-    .intro-arrow {
-        top: 163px;
     }
 
     .promo_wrapper {
@@ -205,8 +201,7 @@
     }
 
     .intro_read-more {
-
-        top: 380px;
+        top: 80%;
     }
 
     .into_title {
@@ -543,10 +538,6 @@
 
     .into_title {
         margin-top: 60px;
-    }
-
-    .intro_arrow {
-        display: none;
     }
 
     .intro_read-more {
