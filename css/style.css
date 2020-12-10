@@ -375,12 +375,13 @@ body {
 
 .services-content_card:hover .services_hover-block p {
     margin-bottom: 20px;;
+
     transition: margin-bottom 1s;
 }
 
 .services-content_card:hover .services_hover-block {
     opacity: 1;
-    transition: opacity 1s;
+    transition: opacity 2s;
 }
 
 /*Recent work*/
@@ -630,7 +631,7 @@ body {
 .hover-animation:hover p {
     background-color: #2B4074;
     color: #F9F6E5;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     width: 266px;
     transition: margin-bottom 1s;
 }
