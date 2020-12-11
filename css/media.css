@@ -79,20 +79,19 @@
         padding: 81px 180px 136px 182px;
     }
 
-
     .content-title {
         margin-bottom: 30px;
     }
-
-
 
     .recent-work_info-block a {
         padding: 7px 7px;
     }
 
     .video-block_wrapper {
-        padding: 60px 0 80px 46px;
+        padding-top: 30px
     }
+    .video-block_img {
+        margin-left: 46px}
 
     .video-block_img img {
         min-width: 200px;
@@ -108,7 +107,7 @@
 
 
     .video-block_look-more {
-        margin-left: 174px;
+        margin-left: 505px;
         margin-top: 306px;
     }
 
@@ -272,6 +271,10 @@
         padding: 40px 43px 129px 46px;
     }
 
+    .video-block_img {
+        margin-left: 0;
+    }
+
     .video-block_title {
         width: 407px;
         white-space: normal;
@@ -287,7 +290,7 @@
     }
 
     .video-block_look-more {
-        margin-left: -5%;
+        margin-left: 26%;
         margin-top: 370px;
     }
 
