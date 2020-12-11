@@ -525,7 +525,6 @@
     }
 }
 
-
 @media only screen and (max-width: 480px)  {
     .header_wrapper {
         padding: 10px 20px 7px 35px;
@@ -564,7 +563,6 @@
         margin-top: 20px;
         margin-bottom: 50px;
     }
-
 
     .services_recent-idea {
         margin: 0 0;
