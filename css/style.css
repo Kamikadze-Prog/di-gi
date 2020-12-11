@@ -556,8 +556,7 @@ body {
 }
 
 .last-news_title hr {
-    margin-top: 19px;
-    margin-bottom: 88px;
+    margin: 19px auto 88px auto;
 }
 
 .last-news_content-wrapper {

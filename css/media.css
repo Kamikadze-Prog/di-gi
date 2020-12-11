@@ -84,11 +84,7 @@
         margin-bottom: 30px;
     }
 
-    .recent-work_info-block {
-        width: 287px;
-        height: 256px;
-        margin-top: 13px;
-    }
+
 
     .recent-work_info-block a {
         padding: 7px 7px;
@@ -109,6 +105,7 @@
     .video-block_title hr {
         margin: 15px 0 19px 0;
     }
+
 
     .video-block_look-more {
         margin-left: 174px;
@@ -426,10 +423,6 @@
         height: 1007px;
     }
 
-    .portfolio-img {
-        padding: 25px;
-    }
-
     .card-wrapper {
         width: 50%;
         height: 25%;
@@ -588,7 +581,7 @@
     }
 
     .portfolio-img {
-        width: 280px;
+        min-width: 280px;
         height: 250px;
     }
 
