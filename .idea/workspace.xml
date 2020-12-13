@@ -26,7 +26,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../di-gi" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -118,7 +118,12 @@
       <workItem from="1607638557296" duration="50000" />
       <workItem from="1607666782141" duration="915000" />
       <workItem from="1607668872979" duration="3419000" />
-      <workItem from="1607684953119" duration="1380000" />
+      <workItem from="1607684953119" duration="1492000" />
+      <workItem from="1607697603549" duration="29000" />
+      <workItem from="1607700504446" duration="193000" />
+      <workItem from="1607841277189" duration="2376000" />
+      <workItem from="1607848974431" duration="599000" />
+      <workItem from="1607864537558" duration="225000" />
     </task>
     <servers />
   </component>
@@ -130,10 +135,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="716" y="221" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606722169325" />
-    <state x="818" y="267" key="FileChooserDialogImpl" timestamp="1607603809990">
+    <state x="818" y="267" key="FileChooserDialogImpl" timestamp="1607697624668">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="818" y="267" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607603809990" />
+    <state x="818" y="267" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607697624668" />
     <state x="272" y="83" width="1545" height="834" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1607603983599">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -142,10 +147,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1102" y="759" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607685390024" />
-    <state x="881" y="253" key="run.anything.popup" timestamp="1607634250684">
+    <state x="881" y="253" key="run.anything.popup" timestamp="1607686378717">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="881" y="253" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607634250684" />
+    <state x="881" y="253" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607686378717" />
     <state x="689" y="272" key="search.everywhere.popup" timestamp="1606954017974">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -80,7 +80,7 @@
 }
 
 .owl-theme .owl-controls .owl-page.active span,
-.owl-theme .owl-controls.clickable .owl-page:hover span {
+.owl-theme .owl-controls.clickable .owl-page:visited span {
     border: 1px solid #2B4074;
     background: #FFFFFF;
 }
@@ -97,7 +97,6 @@
     -moz-border-radius: 30px;
     border-radius: 30px;
 }
-
 
 @media only screen and (max-width: 1024px) {
     #owl-demo-1 .owl-buttons {
