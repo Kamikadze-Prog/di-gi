@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4d62003c-43cd-49ad-85e4-6914ecb3a6dd" name="Default Changelist" comment="" />
+    <list default="true" id="4d62003c-43cd-49ad-85e4-6914ecb3a6dd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/owl.theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/owl.theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -123,7 +128,14 @@
       <workItem from="1607700504446" duration="193000" />
       <workItem from="1607841277189" duration="2376000" />
       <workItem from="1607848974431" duration="599000" />
-      <workItem from="1607864537558" duration="225000" />
+      <workItem from="1607864537558" duration="715000" />
+      <workItem from="1607889109564" duration="2550000" />
+      <workItem from="1608055384631" duration="24000" />
+      <workItem from="1608109299230" duration="12000" />
+      <workItem from="1611051932599" duration="22000" />
+      <workItem from="1612629788470" duration="720000" />
+      <workItem from="1613154121325" duration="25000" />
+      <workItem from="1613742289730" duration="4369000" />
     </task>
     <servers />
   </component>
@@ -147,10 +159,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1102" y="759" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607685390024" />
-    <state x="881" y="253" key="run.anything.popup" timestamp="1607686378717">
+    <state x="881" y="253" key="run.anything.popup" timestamp="1613743958133">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="881" y="253" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607686378717" />
+    <state x="881" y="253" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1613743958133" />
     <state x="689" y="272" key="search.everywhere.popup" timestamp="1606954017974">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -140,12 +140,6 @@ body {
     margin-top: 28px;
 }
 
-.intro_read-more:hover {
-    background: #1c2c5a;
-    opacity: 0.9;
-    transition: opacity 1s;
-}
-
 .read-more {
     display: flex;
     justify-content: center;
@@ -219,11 +213,12 @@ body {
 .promo_call-me {
     background: var(--info-botton-text-color);
     border-radius: 3px;
+    transition: all .3s;
 }
 
 .promo_call-me:hover {
     opacity: 0.8;
-    transition: opacity 1s;
+    transition: opacity 0.5s;
 }
 
 /*Services***********************************************/
@@ -314,7 +309,7 @@ body {
 .card-wrapper {
     width: 25%;
     height: 50%;
-    border: 1px solid var(--info-botton-text-color);
+    /*border: 1px solid var(--info-botton-text-color);*/
     text-align: center;
 }
 
@@ -323,7 +318,6 @@ body {
 }
 
 .services-content_wrapper h2 {
-
     margin-top: 28px;
     font-family: Roboto Condensed, sans-serif;
     text-transform: uppercase;
@@ -332,7 +326,6 @@ body {
     font-size: 16px;
     line-height: 19px;
     letter-spacing: 2px;
-
 }
 
 #to-line {
@@ -351,6 +344,7 @@ body {
     font-size: 16px;
     line-height: 18px;
     color: #9B9B9B;
+    transition: all 0.3s;
 }
 
 .services_hover-block a {
@@ -363,13 +357,22 @@ body {
     text-decoration: none;
     color: var(--main-color);
 }
+.services-content_hover {
+    height: 100%;
+    border: 1px solid #F9F6E5; ;
+    transition: all 0.5s;
+}
 
 .services-content_hover:hover {
     margin-left: 2%;
     margin-right: 2%;
     height: 97%;
     border: 4px solid var(--main-color);
-    transition: border 0.2s;
+    transition: all 0.5s;
+}
+
+.services-content_hover img, .services-content_hover h2 {
+    transition: margin-top 0.5s;
 }
 
 .services-content_card:hover .services-content_hover img, .services-content_hover h2 {
@@ -379,8 +382,7 @@ body {
 
 .services-content_card:hover .services_hover-block p {
     margin-bottom: 20px;;
-
-    transition: margin-bottom 1s;
+    transition: all 0.3s;
 }
 
 .services-content_card:hover .services_hover-block {
@@ -456,6 +458,7 @@ body {
     justify-content: center;
     align-items: center;
     opacity: 0;
+    transition: all .3s;
 }
 
 .recent-work_info-block a {
@@ -464,7 +467,7 @@ body {
 
 .recent-work_info-block:hover {
     opacity: 0.5;
-    transition: opacity 1s;
+    transition: all .3s;
 }
 
 /*Video block*/
@@ -520,6 +523,7 @@ body {
     position: absolute;
     margin-left: 710px;
     margin-top: 360px;
+    transition: all 0.5s;
 }
 
 .look-more {
@@ -539,7 +543,7 @@ body {
 
 .video-block_look-more:hover {
     opacity: 0.9;
-    transition: opacity 1s;
+    transition: all 0.5s;
 }
 
 /*Last news*/
@@ -604,9 +608,10 @@ body {
     right: 43%;
     top: 50%;
     opacity: 0;
+    transition: all 0.3s;
 }
 
-.last-news_card_wrapper p {
+.last-news_img-text{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -621,6 +626,15 @@ body {
     width: 270px;
     position: absolute;
     bottom: 0;
+    transition: all 0.5s;
+}
+
+.hover-animation:hover .last-news_img-text {
+    background-color: var(--main-color);
+    color: var(--info-botton-text-color);
+    margin-bottom: 30px;
+    width: 266px;
+    transition: margin-bottom 0.5s;
 }
 
 .hover-animation:hover {
@@ -630,25 +644,19 @@ body {
 
 .hover-animation:hover .info-button-news {
     opacity: 1;
-    transition: opacity 1s;
+    transition: all 0.3s;
 }
 
-.hover-animation:hover p {
-    background-color: var(--main-color);
-    color: var(--info-botton-text-color);
-    margin-bottom: 30px;
-    width: 266px;
-    transition: margin-bottom 1s;
+.hover-border {
+    border: 1px  solid transparent;
+    transition: border 0.3s;
 }
-
 .hover-animation:hover .hover-border {
     border: 10px solid var(--main-color);
-    transition: border 1s;
+    transition: border 0.3s;
 }
 
-
 /*Quotes-block*/
-
 .quotes-wrapper {
     height: 533px;
     background: var(--text-color);
