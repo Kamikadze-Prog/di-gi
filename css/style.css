@@ -307,7 +307,7 @@ body {
 }
 
 .card-wrapper {
-    width: 25%;
+    width: 272px;
     height: 50%;
     /*border: 1px solid var(--info-botton-text-color);*/
     text-align: center;
